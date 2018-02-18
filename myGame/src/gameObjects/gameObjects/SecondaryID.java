@@ -1,4 +1,4 @@
-package gameObjects;
+package src.gameObjects.gameObjects;
 
 public enum SecondaryID
 {

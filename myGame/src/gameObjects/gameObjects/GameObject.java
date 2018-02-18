@@ -1,7 +1,5 @@
 
-package gameObjects;
-import theVisuals.*;
-import geometry.*;
+package src.gameObjects.gameObjects;
 
 import java.awt.Graphics;
 import java.awt.Image;

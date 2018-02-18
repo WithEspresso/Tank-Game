@@ -1,4 +1,4 @@
-package myGame.gameObjects;
+package src.gameObjects.gameObjects;
 
 import java.awt.*;
 

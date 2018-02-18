@@ -1,8 +1,9 @@
-package myGame.engine;
+package src.gameObjects.engine;
 
 import javax.sound.sampled.*;
 import java.io.File;
 import java.util.HashMap;
+import src.gameObjects.gameObjects.*;
 
 public class SoundManager
 {

@@ -1,10 +1,7 @@
 
-package gameObjects;
+package src.gameObjects.gameObjects;
 
 import java.awt.Color;
-
-import engine.*;
-import gameObjects.*;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;

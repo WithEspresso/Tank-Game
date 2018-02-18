@@ -1,10 +1,10 @@
 package myGame.theVisuals;
 
 import myGame.engine.Game;
-import myGame.gameObjects.ObjectHandler;
+import src.gameObjects.gameObjects.ObjectHandler;
 import myGame.gameObjects.TankObject;
 import myGame.gameObjects.GameObject;
-import myGame.gameObjects.ObjectId;
+import src.gameObjects.gameObjects.ObjectId;
 
 import java.awt.*;
 

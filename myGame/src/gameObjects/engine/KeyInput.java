@@ -1,9 +1,8 @@
-package myGame.engine;
+package src.gameObjects.engine;
 
-import myGame.gameObjects.TankObject;
-import myGame.gameObjects.GameObject;
-import myGame.gameObjects.ObjectHandler;
-import myGame.gameObjects.ObjectId;
+import src.gameObjects.gameObjects.*;
+import src.gameObjects.gameObjects.ObjectHandler;
+import src.gameObjects.gameObjects.ObjectId;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;

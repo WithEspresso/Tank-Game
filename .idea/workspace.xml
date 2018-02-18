@@ -2,11 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4154cf06-cc09-4070-a973-dabfd9c063b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myGame/myGame.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/engine/Game.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/engine/KeyInput.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/engine/SoundManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/geometry/Vector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/theVisuals/BufferedImageLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/theVisuals/GameScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/theVisuals/HealthBars.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/theVisuals/MiniMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/theVisuals/Sounds.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myGame/theVisuals/SpriteManager.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/Background.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Background.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/Block.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Block.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/BoosterAnimation.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/BoosterAnimation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/Bullet.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Bullet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/DeadTank.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/DeadTank.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/Deadblock.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Deadblock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/DestructableBlock.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/DestructableBlock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/GameObject.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/GameObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/ObjectHandler.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/ObjectHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/ObjectId.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/ObjectId.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/PlayerObject.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/PlayerObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/PowerUp.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/PowerUp.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/SecondaryID.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/SecondaryID.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/TankObject.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/TankObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/myGame/gameObjects/VictoryScreen.java" afterPath="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/VictoryScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,11 +40,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myGame/gameObjects/GameObject.java">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/engine/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="218">
+              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/engine/KeyInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/engine/SoundManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Background.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Background.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,21 +89,23 @@
         </entry>
       </file>
       <file leaf-file-name="SecondaryID.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myGame/gameObjects/SecondaryID.java">
+        <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/SecondaryID.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TankObject.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myGame/gameObjects/TankObject.java">
+      <file leaf-file-name="VictoryScreen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/VictoryScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="424">
+              <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +126,12 @@
         <option value="$PROJECT_DIR$/myGame/gameObjects/GameObject.java" />
         <option value="$PROJECT_DIR$/myGame/gameObjects/SecondaryID.java" />
         <option value="$PROJECT_DIR$/myGame/gameObjects/TankObject.java" />
+        <option value="$PROJECT_DIR$/myGame/src/gameObjects/GameObject.java" />
+        <option value="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/ObjectId.java" />
+        <option value="$PROJECT_DIR$/myGame/src/gameObjects/engine/Game.java" />
+        <option value="$PROJECT_DIR$/myGame/src/gameObjects/engine/SoundManager.java" />
+        <option value="$PROJECT_DIR$/myGame/src/gameObjects/engine/KeyInput.java" />
+        <option value="$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Background.java" />
       </list>
     </option>
   </component>
@@ -117,13 +182,34 @@
               <item name="Tank Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tank Game" type="462c0819:PsiDirectoryNode" />
               <item name="myGame" type="462c0819:PsiDirectoryNode" />
+              <item name="gameObjects" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tank Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tank Game" type="462c0819:PsiDirectoryNode" />
+              <item name="myGame" type="462c0819:PsiDirectoryNode" />
+              <item name="gameObjects" type="462c0819:PsiDirectoryNode" />
+              <item name="gameObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tank Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tank Game" type="462c0819:PsiDirectoryNode" />
+              <item name="myGame" type="462c0819:PsiDirectoryNode" />
+              <item name="gameObjects" type="462c0819:PsiDirectoryNode" />
               <item name="geometry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tank Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tank Game" type="462c0819:PsiDirectoryNode" />
               <item name="myGame" type="462c0819:PsiDirectoryNode" />
+              <item name="gameObjects" type="462c0819:PsiDirectoryNode" />
               <item name="theVisuals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tank Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tank Game" type="462c0819:PsiDirectoryNode" />
+              <item name="sounds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,12 +340,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518921339067</updated>
-      <workItem from="1518921345582" duration="795000" />
+      <workItem from="1518921345582" duration="1425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="795000" />
+    <option name="totallyTimeSpent" value="1425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -305,7 +391,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myGame/theVisuals/GameScreen.java">
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/theVisuals/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -313,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/theVisuals/MiniMap.java">
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/theVisuals/MiniMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -321,7 +407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/theVisuals/Sounds.java">
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/theVisuals/Sounds.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -329,7 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/theVisuals/SpriteManager.java">
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/theVisuals/SpriteManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
@@ -337,23 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/gameObjects/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/gameObjects/Deadblock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/geometry/Vector.java">
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/geometry/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -361,29 +431,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/gameObjects/GameObject.java">
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/TankObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/BoosterAnimation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Deadblock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/DeadTank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/DestructableBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/ObjectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/ObjectId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/engine/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/gameObjects/SecondaryID.java">
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/engine/KeyInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/engine/SoundManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/SecondaryID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myGame/gameObjects/TankObject.java">
+    <entry file="file://$PROJECT_DIR$/myGame/src/gameObjects/gameObjects/VictoryScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="424">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

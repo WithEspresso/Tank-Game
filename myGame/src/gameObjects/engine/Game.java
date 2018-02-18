@@ -7,8 +7,7 @@ import java.awt.Image;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 
-import myGame.gameObjects.*;
-import myGame.theVisuals.*;
+import src.gameObjects.gameObjects.*;
 
 public class Game extends Canvas implements Runnable
 {

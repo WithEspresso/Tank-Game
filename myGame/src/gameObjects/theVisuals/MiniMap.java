@@ -1,10 +1,10 @@
 package myGame.theVisuals;
 
 import myGame.engine.Game;
-import myGame.gameObjects.DestructableBlock;
-import myGame.gameObjects.ObjectHandler;
+import src.gameObjects.gameObjects.DestructableBlock;
+import src.gameObjects.gameObjects.ObjectHandler;
 import myGame.gameObjects.GameObject;
-import myGame.gameObjects.ObjectId;
+import src.gameObjects.gameObjects.ObjectId;
 
 import java.util.ArrayList;
 
