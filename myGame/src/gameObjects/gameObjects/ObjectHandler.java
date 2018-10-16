@@ -1,7 +1,7 @@
 package src.gameObjects.gameObjects;
 
-import myGame.engine.SoundManager;
-import myGame.theVisuals.SpriteManager;
+import src.gameObjects.engine.SoundManager;
+import src.gameObjects.theVisuals.SpriteManager;
 
 import java.awt.*;
 import java.util.LinkedList;

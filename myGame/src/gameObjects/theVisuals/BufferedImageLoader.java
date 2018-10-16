@@ -1,4 +1,4 @@
-package myGame.theVisuals;
+package src.gameObjects.theVisuals;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;

@@ -1,6 +1,6 @@
 package src.gameObjects.gameObjects;
 
-import myGame.theVisuals.SpriteManager;
+import src.gameObjects.theVisuals.SpriteManager;
 
 import java.awt.*;
 

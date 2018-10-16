@@ -1,7 +1,6 @@
+package src.gameObjects.theVisuals;
 
-package myGame.theVisuals;
-
-import myGame.engine.Game;
+import src.gameObjects.engine.Game;
 
 import java.awt.Dimension;
 import javax.swing.JFrame;

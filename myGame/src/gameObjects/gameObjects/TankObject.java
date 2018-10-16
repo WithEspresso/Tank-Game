@@ -7,7 +7,8 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-import static myGame.engine.Game.checkBounds;
+import static src.gameObjects.engine.Game.checkBounds;
+import src.gameObjects.engine.Game;
 
 public class TankObject extends GameObject
 {

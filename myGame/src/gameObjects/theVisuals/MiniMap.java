@@ -1,9 +1,9 @@
-package myGame.theVisuals;
+package src.gameObjects.theVisuals;
 
-import myGame.engine.Game;
+import src.gameObjects.engine.Game;
 import src.gameObjects.gameObjects.DestructableBlock;
 import src.gameObjects.gameObjects.ObjectHandler;
-import myGame.gameObjects.GameObject;
+import src.gameObjects.gameObjects.GameObject;
 import src.gameObjects.gameObjects.ObjectId;
 
 import java.util.ArrayList;

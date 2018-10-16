@@ -8,7 +8,7 @@ package src.gameObjects.gameObjects;
 import java.awt.Graphics;
 import java.awt.Color;
 import java.awt.Rectangle;
-import myGame.theVisuals.SpriteManager;
+import src.gameObjects.theVisuals.SpriteManager;
 
 /**
  *

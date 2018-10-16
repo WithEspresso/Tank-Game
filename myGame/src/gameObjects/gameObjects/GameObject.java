@@ -4,6 +4,7 @@ package src.gameObjects.gameObjects;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
+import src.gameObjects.geometry.Vector;
 
 
 public abstract class GameObject 

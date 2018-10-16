@@ -1,10 +1,9 @@
 package src.gameObjects.gameObjects;
 
-import myGame.engine.Game;
+import static src.gameObjects.engine.Game.checkBounds;
+import src.gameObjects.engine.Game;
 
 import java.awt.*;
-
-import static myGame.engine.Game.checkBounds;
 
 public class PowerUp extends GameObject
 {

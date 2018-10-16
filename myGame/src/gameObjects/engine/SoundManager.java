@@ -3,12 +3,11 @@ package src.gameObjects.engine;
 import javax.sound.sampled.*;
 import java.io.File;
 import java.util.HashMap;
-import src.gameObjects.gameObjects.*;
 
 public class SoundManager
 {
     private static String workingDirectory = System.getProperty("user.dir");
-    private static String MUSICPATH = workingDirectory + "\\game\\src\\sounds\\";
+    private static String MUSICPATH = workingDirectory + "/sounds/";
     private static HashMap soundPathMap;
 
     private static String[] keys = new String[]

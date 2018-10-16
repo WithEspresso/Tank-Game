@@ -1,4 +1,4 @@
-package myGame.theVisuals;
+package src.gameObjects.theVisuals;
 
 public class Sounds {
 }

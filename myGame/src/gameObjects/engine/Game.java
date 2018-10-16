@@ -1,4 +1,4 @@
-package myGame.engine;
+package src.gameObjects.engine;
 
 import java.awt.Canvas;
 import java.awt.Color;
@@ -8,6 +8,12 @@ import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 
 import src.gameObjects.gameObjects.*;
+
+import src.gameObjects.theVisuals.MiniMap;
+import src.gameObjects.theVisuals.SpriteManager;
+import src.gameObjects.theVisuals.BufferedImageLoader;
+import src.gameObjects.theVisuals.HealthBars;
+import src.gameObjects.theVisuals.GameScreen;
 
 public class Game extends Canvas implements Runnable
 {
@@ -98,10 +104,10 @@ public class Game extends Canvas implements Runnable
         SoundManager soundManager = new SoundManager();
         SpriteManager spriteManager = new SpriteManager();
         BufferedImageLoader loader = new BufferedImageLoader();
-        level1 = loader.loadImage(workingDirectory + "\\game\\src\\images\\level.png");
+        level1 = loader.loadImage(workingDirectory + "/images/level.png");
 
 
-        background = loader.loadImage(workingDirectory + "\\game\\src\\images\\vaporcity.gif");
+        background = loader.loadImage(workingDirectory + "/images/vaporcity.gif");
 
         soundManager.playMusic(soundKey);
 

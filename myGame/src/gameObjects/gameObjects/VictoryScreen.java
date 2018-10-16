@@ -1,6 +1,6 @@
 package src.gameObjects.gameObjects;
 
-import myGame.engine.Game;
+import src.gameObjects.engine.Game;
 
 import java.awt.*;
 

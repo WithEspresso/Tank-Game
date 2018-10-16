@@ -1,6 +1,6 @@
-package myGame.theVisuals;
+package src.gameObjects.theVisuals;
 
-import myGame.geometry.Vector;
+import src.gameObjects.geometry.Vector;
 
 import java.util.HashMap;
 import javax.swing.ImageIcon;
@@ -22,25 +22,13 @@ public class SpriteManager
         private static ImageIcon icon = null;
         private static Image image = null;
         private static String workingDirectory = System.getProperty("user.dir");
-        private static String relativePath = "\\game\\src\\images\\";
+        private static String relativePath = "/images/";
         private static HashMap imagePathMap;
         private static HashMap imageMap;
         private static HashMap sizeMap;
 
         private static String[] keys = new String[]
-                {"left0",
-                        "left1",
-                        "left2",
-                        "right",
-                        "Tank1",
-                        "Tank1left",
-                        "jump_left",
-                        "jump_right",
-                        "wall",
-                        "invincible_wall",
-                        "ShellLeft",
-                        "Shellright",
-                        "red_tank_left",
+                { "red_tank_left",
                         "red_tank_left_damaged",
                         "red_tank_right",
                         "red_tank_right_damaged",
@@ -65,19 +53,7 @@ public class SpriteManager
                 };
 
         private static String[] paths = new String[]
-                {"walk_left0.png",
-                        "walk_left1.png",
-                        "walk_left2.png",
-                        "standing_right.png",
-                        "Tank1.png",
-                        "Tank1left.png",
-                        "jumping_left.png",
-                        "jumping_right.png",
-                        "wall.png",
-                        "invincible_wall.png",
-                        "ShellLeft.png",
-                        "Shellright.png",
-                        "red_tank_left.png",
+                { "red_tank_left.png",
                         "red_tank_left_damaged.png",
                         "red_tank_right.png",
                         "red_tank_right_damaged.png",
@@ -110,6 +86,7 @@ public class SpriteManager
         static
         {
             System.out.println(workingDirectory);
+            System.out.println(relativePath);
             imagePathMap = new HashMap<String, String>();
             int size = keys.length;
             for(int i = 0; i < size; i++)
@@ -124,6 +101,7 @@ public class SpriteManager
             for(int i = 0; i < size; i++)
             {
                 filePath = workingDirectory + relativePath + imagePathMap.get(keys[i]);
+                System.out.println(filePath);
                 icon = new ImageIcon(filePath);
                 image = icon.getImage();
                 imageMap.put(keys[i], image);
@@ -136,6 +114,7 @@ public class SpriteManager
                     sizeMap.put(keys[i], sizeVector);
                 } catch (Exception ex)
                 {
+                    System.out.println("Cannot open: " + filePath);
                     ex.printStackTrace();
                 }
             }

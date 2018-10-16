@@ -1,4 +1,4 @@
-package myGame.geometry;
+package src.gameObjects.geometry;
 
 public class Vector
 {
